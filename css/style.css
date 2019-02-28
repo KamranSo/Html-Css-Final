@@ -1,0 +1,301 @@
+#Gallery {
+  padding: 125px 0px;
+}
+#Gallery .imgw {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+  transition: 2s;
+  position: relative;
+}
+#Gallery .imgw:hover {
+  transform: scale(1.03);
+  transition: all .5s ease;
+}
+#Gallery .divhover:hover img {
+  transform: scale(1.04);
+}
+#Gallery .divhover:hover .overlay {
+  opacity: 1;
+}
+#Gallery .overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(128, 128, 128, 0.4);
+  position: absolute;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0;
+  height: auto;
+  transition: all .5s;
+}
+#Gallery .overlay a {
+  color: white;
+}
+#Gallery .overlay a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center !important;
+}
+
+.card-img {
+  height: 175px;
+}
+
+.head-center {
+  margin-top: 65px;
+  margin-bottom: 24px;
+}
+
+.card-img-overlay {
+  color: #fff;
+}
+
+#Contact {
+  margin-top: 26px;
+}
+#Contact a {
+  color: #000;
+  text-decoration: none;
+}
+#Contact a:hover {
+  color: #37ca8a;
+}
+#Contact textarea {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 135px;
+  width: 95%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dedede;
+}
+#Contact textarea:hover {
+  border-bottom: 1px solid black;
+}
+
+.hov:hover {
+  border-bottom: 1px solid black;
+}
+
+.container .btn {
+  background: #37ca8a;
+  color: white;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  width: 12%;
+}
+.container .btn:hover {
+  background: black;
+}
+
+#Blog .container .col-sm-6 .hov12 {
+  color: white;
+}
+#Blog .container .col-sm-6 .hov12:hover {
+  color: #37ca8a;
+}
+#Blog .container .col-sm-6 img {
+  height: auto;
+}
+#Blog .container .col-sm-6 p {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+#Blog .container .col-sm-6 a {
+  font-size: 10px;
+}
+#Blog .container .col-sm-6 a {
+  color: black;
+  text-decoration: none;
+}
+#Blog .container .col-sm-6 a:hover {
+  color: #37ca8a;
+}
+#Blog .container .size a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#Blog .container .size a:hover {
+  color: #37ca8a;
+}
+
+#home .container-fluid {
+  background-color: #3a3c3e;
+  color: white;
+  height: 42px;
+}
+#home .container-fluid p {
+  margin: 0;
+  font-size: 12px;
+  padding: 0 22px;
+}
+#home .container-fluid a {
+  margin: 0;
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+#home .container-fluid a:hover {
+  color: #37ca8a;
+}
+#home .container-fluid .col-sm-4 {
+  letter-spacing: 10px;
+}
+#home .container-fluid .hov3:hover {
+  color: #37ca8a;
+}
+#home .container-fluid .hov4:hover {
+  color: #37ca8a;
+}
+#home .container-fluid .hov5:hover {
+  color: #37ca8a;
+}
+
+#navbar .col-sm-8 a {
+  color: #3a3c3e;
+}
+#navbar .col-sm-8 a:hover {
+  color: #37ca8a;
+}
+#navbar .col-sm-2 .icon5 {
+  display: block;
+}
+#navbar .col-sm-2 .icon5:hover {
+  display: inline;
+}
+
+#slider .container-fluid .hov10 {
+  background: #37ca8a;
+  color: white;
+}
+#slider .container-fluid .hov10:hover {
+  background: black;
+}
+
+#acot .col-sm-4 a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+#acot .col-sm-4 a:hover {
+  color: #37ca8a;
+}
+
+#audit {
+  position: relative;
+}
+#audit .container-fluid {
+  height: 400px;
+  width: 100%;
+  background: #37ca8a;
+}
+#audit .container {
+  position: absolute;
+  left: 26%;
+  top: -10%;
+  height: 118%;
+  width: 50%;
+  background-color: #000;
+}
+#audit .container .hov6 {
+  background: #37ca8a;
+  border: 1px solid white;
+}
+#audit .container .hov6:hover {
+  color: #37ca8a;
+  background: #000;
+}
+
+#team {
+  padding: 80px 0;
+}
+#team a {
+  text-decoration: none;
+  color: black;
+}
+#team a:hover {
+  color: #37ca8a;
+}
+
+#request .container {
+  background: #37ca8a;
+  height: 285px;
+}
+#request .container .hov9 {
+  background: #37ca8a;
+  color: white;
+  border: 1px solid;
+}
+#request .container .hov9:hover {
+  background: black;
+}
+
+#news .hov11 {
+  text-decoration: none;
+  color: black;
+}
+#news .hov11:hover {
+  color: #37ca8a;
+}
+
+#buttom .container-fluid .container .row .hov13 a {
+  font-weight: bold;
+  color: white !important;
+}
+#buttom .container-fluid .container .row .hov13 a:hover {
+  color: #37ca8a !important;
+  text-decoration: none;
+}
+
+.hov14 {
+  color: white;
+  text-decoration: none;
+}
+.hov14:hover {
+  color: #37ca8a;
+  text-decoration: none;
+}
+
+#case .overlay {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+#case .overlay:hover {
+  opacity: 1;
+  border-radius: 100%;
+  color: #000;
+}
+
+.hov20 {
+  color: white;
+}
+.hov20:hover {
+  color: #37ca8a !important;
+  background: black;
+}
+
+.hov21 {
+  color: white;
+}
+.hov21:hover {
+  color: #37ca8a !important;
+  background: black !important;
+}
